@@ -24,15 +24,15 @@ Create below collections
 2. Update all the information in the ``.env``
 3. Execute ``run npm install`` to install ``node_modules`` libraries
 
-## 3. Run The Application 
+## 4. Run The Application 
 1. Run ``npx next dev`` which use `` http://localhost:3000`` to access the web application
 2. Run ``http://localhost:15672`` on your browser to run RabbitMQ management tools. username is ``guest`` and password also ``guest``
 
-## 3. Test Application
+## 5. Test Application
 1. import ``ORDER-APP-BE.postman_collection.json`` which already in the source repo
 2. Orders can be viewed using this link :  ``http://localhost:3000/api/orders/list``
 
-## 4. Things Need To Be Added In The Future
+## 6. Things Need To Be Added In The Future
 1. Test each functioanlity using mock testing 
 2. Implements ``Mongoose`` as models
 3. Use repository pattern as a wrapper class for a model processing to ensure code standardization and managing exceptions 
