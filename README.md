@@ -30,7 +30,7 @@ Create below collections
 
 ## 3. Test Application
 1. import ``ORDER-APP-BE.postman_collection.json`` which already in the source repo
-2. you can view the order processed data using this page ``http://localhost:3000/api/orders/list``
+2. Orders can be viewed using this link :  ``http://localhost:3000/api/orders/list``
 
 ## 4. Things Need To Be Added In The Future
 1. Test each functioanlity using mock testing 
