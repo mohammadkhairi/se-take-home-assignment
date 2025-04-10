@@ -33,9 +33,9 @@ Create below collections
 2. you can view the order processed data using this page ``http://localhost:3000/api/orders/list``
 
 ## 4. Things Need To Be Added In The Future
-1. Unit Test using mocks
-2. Implements Mongoose as models
-3. Use Repository pattern as a wrapper class for a model processing to ensure code standardization and managing exceptions 
+1. Test each functioanlity using mock testing 
+2. Implements ``Mongoose`` as models
+3. Use repository pattern as a wrapper class for a model processing to ensure code standardization and managing exceptions 
 4. Use enumerations to standard exceptions message as it could be reuse in any routes 
 
 
